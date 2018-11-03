@@ -28,6 +28,6 @@ public class CityController {
 		a.setName("武汉");
 		a.setAddress("湖北省");
 		citys.add(a);
-		return cityService.getAllCitys();
+		return citys;
 	}
 }
