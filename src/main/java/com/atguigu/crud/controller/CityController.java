@@ -23,7 +23,7 @@ public class CityController {
 	private CityService cityService;
 	@GetMapping("/citys")
 	public List<City> allCitys(){
-		List<City> citys=new ArrayList();
+		List<City> citys=null;
 		City a=new City();
 		a.setCityName("武汉");
 		a.setAddress("湖北省");
