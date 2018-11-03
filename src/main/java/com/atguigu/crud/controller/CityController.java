@@ -25,7 +25,7 @@ public class CityController {
 	public List<City> allCitys(){
 		List<City> citys=new ArrayList<City>();
 		City a=new City();
-		a.setName("武汉");
+		a.setCityName("武汉");
 		a.setAddress("湖北省");
 		citys.add(a);
 		return citys;
