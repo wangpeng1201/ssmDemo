@@ -23,6 +23,11 @@ public class CityController {
 	private CityService cityService;
 	@GetMapping("/citys")
 	public List<City> allCitys(){
+		List<City> citys=new ArrayList<City>();
+		
+		a.setName("武汉");
+		a.setAddress("湖北省");
+		citys.add(a);
 		return cityService.getAllCitys();
 	}
 }
