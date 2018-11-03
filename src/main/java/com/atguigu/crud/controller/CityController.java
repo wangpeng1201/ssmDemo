@@ -18,6 +18,7 @@ import com.atguigu.crud.service.CityService;
  * 2018年2月27日 上午10:45:14
  */
 @RestController
+@RequestMapping("/city")
 public class CityController {
 	@Autowired
 	private CityService cityService;
